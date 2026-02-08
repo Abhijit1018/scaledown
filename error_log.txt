@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\Users\rotho\Desktop\python\scaledown\debug_import.py", line 8, in main
+    import pulse.main
+  File "C:\Users\rotho\Desktop\python\scaledown\pulse\__init__.py", line 9, in <module>
+    from pulse.core.brain import Brain
+  File "C:\Users\rotho\Desktop\python\scaledown\pulse\core\__init__.py", line 7, in <module>
+    from pulse.core.brain import Brain
+  File "C:\Users\rotho\Desktop\python\scaledown\pulse\core\brain.py", line 9, in <module>
+    from scaledown import ScaleDownCompressor
+ImportError: cannot import name 'ScaleDownCompressor' from 'scaledown' (unknown location)
